@@ -1,10 +1,10 @@
-import Form from "./components/pages/form";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import Form from "./components/pages/Form"; // تعديل حرف الـ F إلى كابيتال هنا أساسي لـ Vercel
+import "./App.css"; // استدعاء ملف الـ CSS الخاص بالتايلوند
+
 export default function App() {
   return (
     <>
-      <Form/>
+      <Form />
     </>
   );
 }
